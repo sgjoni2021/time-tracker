@@ -2,19 +2,20 @@ package com.timetracker.controller;
 
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
+
+
 @Controller
-@RequestMapping("/login")
-public class LogInController {
+@RequestMapping("/tables")
+public class TablesController {
 
 
     @GetMapping("")
     public String index(){
-        return "profile/login";
+        return "tables/tables";
     }
 
 
